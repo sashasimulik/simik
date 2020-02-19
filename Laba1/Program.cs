@@ -31,7 +31,7 @@ namespace Laba1
             xy1 = Math.Sqrt(Math.Pow((x1 - x2), 2) + Math.Pow((y1 - y2), 2));
             xy2 = Math.Sqrt(Math.Pow((x2 - x3), 2) + Math.Pow((y2 - y3), 2));
             xy3 = Math.Sqrt(Math.Pow((x3 - x1), 2) + Math.Pow((y3 - y1), 2));
-            P = xy1 + xy2 + xy3;
+            P = xy1 + xy2 + xy3; // обчислення периметру
             p = P / 2;
             Console.WriteLine($"Периметр трикутника (P):{P} ");
             S = Math.Sqrt(p * (p - xy1) * (p - xy2) * (p - xy3));
